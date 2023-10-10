@@ -8,10 +8,11 @@ A new item can be created with Item(price, weight)
 Example of code using the class: i = Item(10, 20)
 """
 
-class Item(price,weight):
-    def __init__(self,price,weight):
+class Item:
+    def __init__(self, price, weight):
         self.price = price
         self.weight = weight
-i=Item(10,20)
+
+i = Item(10, 20)
 print(i.price)
 print(i.weight)
